@@ -1,4 +1,5 @@
 read -p "What Bash Welcome Screen You Want ? (1/2..)" PROCS
+tput sgr 0
 if ["$PROCS" = "1"]; then
 if [ -e $HOME/bash.bashrc]; then
 rm $HOME/bash.bashrc;
