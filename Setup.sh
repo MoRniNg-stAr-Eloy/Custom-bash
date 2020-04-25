@@ -4,8 +4,8 @@ if ["$PROCS" = "1"]; then
 if [ -e $HOME/bash.bashrc]; then
 rm $HOME/bash.bashrc;
 sleep 2
-elif rm -rf $PREFIX/etc/bash.bashrc;
-else 
+
+
 rm -rf $PREFIX/etc/bash.bashrc;
 fi
 sleep 1
@@ -33,4 +33,5 @@ else
 cd $HOME
 cat bash.bashrc >> $PREFIX/etc/bash.bashrc
 fi
-sleep 4
+done 
+exit 0
