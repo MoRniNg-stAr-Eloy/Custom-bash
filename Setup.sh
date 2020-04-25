@@ -33,5 +33,6 @@ else
 cd $HOME
 cat bash.bashrc >> $PREFIX/etc/bash.bashrc
 fi
-done 
 exit 0
+
+
