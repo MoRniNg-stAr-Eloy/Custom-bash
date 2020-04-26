@@ -6,8 +6,9 @@ sleep 2
 else 
 rm -rf bash.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc
 fi
-done 
 exit 0
+
+
 
 
 
